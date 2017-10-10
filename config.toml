@@ -1,0 +1,581 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "http://samsung.xn----btbka3angkrdz.xn--p1ai/"
+languageCode = "ru-RU"
+title = "Срочный ремонт телефонов Samsung в СПб - Пилот Сервис"
+
+# Metadata
+[params]
+  author = "Dmitry Cherpin"
+  description = "Экспресс-ремонт вашего смартфона SAMSUNG от 30 минут в мастерской или у вас дома"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero.png"
+  title = "Экспресс-ремонт вашего смартфона SAMSUNG"
+  description = "от 30 минут в мастерской или у вас дома"
+
+# Navigation section
+[params.nav]
+  mission = "Адрес"
+  services = "Преимущества"
+  models = "Заявка"
+  contact = "8 812 922-29-95"
+  team = "Отзывы"
+  # Include logo instead if HOME:
+  logo = "images/logo.svg"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    #[[params.mission.images.list]]
+    #  img = "images/img_2.jpg"
+    #[[params.mission.images.list]]
+    #  img = "images/img_1.jpg"
+    #[[params.mission.images.list]]
+    #  img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "leninsky"
+    title = "Ленинский проспект"
+    subtitle = ""
+    description = "<p>Адрес: Санкт-Петербург, Ленинский пр., 161</p><p>Телефон: 8 (812) 922-29-95</p><p>Почта: pilot-servis-spb@yandex.ru</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "balkany"
+    title = "Балканская площадь"
+    subtitle = ""
+    description = "<p>Адрес: Балканская площадь, 5В</p><p>Телефон: 8 (812) 926-93-29</p><p>Почта: pilot-servis-spb@yandex.ru</p>"
+
+  #[[params.mission.item]]
+  #  weight = 3
+  #  name = "strategy"
+  #  title = "Strategy"
+  #  subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+  #  description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta #consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+
+# models section
+[params.models]
+  enable = true
+  title = "Выберите модель и неисправность"
+
+  [[params.models.item]]
+    weight = 1
+    name = "2017"
+    title = "2017"
+    subtitle = ""
+    description = "Модели 2017 года"
+
+    [[params.models.item.phone]]
+     title = "Xcover 4"
+     image = "models/samsung_galaxyxcover4.jpg"
+    [[params.models.item.phone]]
+     title = "S8 Plus"
+     image = "models/samsung_galaxys8plus.jpg"
+    [[params.models.item.phone]]
+     title = "S8"
+     image = "models/samsung_galaxys8.jpg"
+    [[params.models.item.phone]]
+     title = "Note 8"
+     image = "models/samsung_galaxynote8.jpg"
+    [[params.models.item.phone]]
+     title = "A7 2017"
+     image = "models/samsung_galaxya72017.jpg"
+    [[params.models.item.phone]]
+     title = "A5 2017"
+     image = "models/samsung_galaxya52017.jpg"
+    [[params.models.item.phone]]
+     title = "A3 2017"
+     image = "models/samsung_galaxya32017.jpg"
+
+  [[params.models.item]]
+    weight = 2
+    name = "2016"
+    title = "2016"
+    subtitle = ""
+    description = "Модели 2016 года"
+
+    [[params.models.item.phone]]
+     title = "S7 edge"
+     image = "models/samsung_galaxys7edge.jpg"
+    [[params.models.item.phone]]
+     title = "S7"
+     image = "models/samsung_galaxys7.jpg"
+    [[params.models.item.phone]]
+     title = "Note 7"
+     image = "models/samsung_galaxynote7.jpg"
+    [[params.models.item.phone]]
+     title = "J7 2016"
+     image = "models/samsung_galaxyj72016.jpg"
+    [[params.models.item.phone]]
+     title = "J5 2016"
+     image = "models/samsung_galaxyj52016.jpg"
+    [[params.models.item.phone]]
+     title = "J1 mini"
+     image = "models/samsung_galaxyj1mini.jpg"
+    [[params.models.item.phone]]
+     title = "J1 2016"
+     image = "models/samsung_galaxyj12016.jpg"
+
+
+  [[params.models.item]]
+    weight = 3
+    name = "2015"
+    title = "2015"
+    subtitle = ""
+    description = "Модели 2015 года"
+
+    [[params.models.item.phone]]
+     title = "Z3"
+     image = "models/samsung_z3.jpg"
+    [[params.models.item.phone]]
+     title = "Z1"
+     image = "models/samsung_z1.jpg"
+    [[params.models.item.phone]]
+     title = "Xcover 3"
+     image = "models/samsung_galaxyxcover3.jpg"
+    [[params.models.item.phone]]
+     title = "Win 2"
+     image = "models/samsung_galaxywin2.jpg"
+    [[params.models.item.phone]]
+     title = "S6 edge plus"
+     image = "models/samsung_galaxys6edgeplus.jpg"
+    [[params.models.item.phone]]
+     title = "S6 edge"
+     image = "models/samsung_galaxys6edge.jpg"
+    [[params.models.item.phone]]
+     title = "S6"
+     image = "models/samsung_galaxys6.jpg"
+    [[params.models.item.phone]]
+     title = "S4 mini Plus"
+     image = "models/samsung_galaxys4miniplus.jpg"
+    [[params.models.item.phone]]
+     title = "On7"
+     image = "models/samsung_galaxyon7.jpg"
+    [[params.models.item.phone]]
+     title = "On5"
+     image = "models/samsung_galaxyon5.jpg"
+    [[params.models.item.phone]]
+     title = "Note 5"
+     image = "models/samsung_galaxynote5.jpg"
+    [[params.models.item.phone]]
+     title = "Grand Neo Plus"
+     image = "models/samsung_galaxygrandneoplus.jpg"
+    [[params.models.item.phone]]
+     title = "E7"
+     image = "models/samsung_galaxye7.jpg"
+    [[params.models.item.phone]]
+     title = "E5"
+     image = "models/samsung_galaxye5.jpg"
+    [[params.models.item.phone]]
+     title = "A8"
+     image = "models/samsung_galaxya8.jpg"
+    [[params.models.item.phone]]
+     title = "A7 2016"
+     image = "models/samsung_galaxya72016.jpg"
+    [[params.models.item.phone]]
+     title = "A7"
+     image = "models/samsung_galaxya7.jpg"
+    [[params.models.item.phone]]
+     title = "A5 2016"
+     image = "models/samsung_galaxya52016.jpg"
+    [[params.models.item.phone]]
+     title = "A3 2016"
+     image = "models/samsung_galaxya32016.jpg"
+    [[params.models.item.phone]]
+     title = "J7"
+     image = "models/samsung_galaxyj7.jpg"
+    [[params.models.item.phone]]
+     title = "J5"
+     image = "models/samsung_galaxyj5.jpg"
+    [[params.models.item.phone]]
+     title = "J1 Duos"
+     image = "models/samsung_galaxyj1.jpg"
+    [[params.models.item.phone]]
+     title = "J1"
+     image = "models/samsung_galaxyj1.jpg"
+
+  [[params.models.item]]
+    weight = 4
+    name = "2014"
+    title = "2014"
+    subtitle = ""
+    description = "Модели 2014 года"
+
+    [[params.models.item.phone]]
+     title = "Z"
+     image = "models/samsung_z.jpg"
+    [[params.models.item.phone]]
+     title = "Young 2"
+     image = "models/samsung_galaxyyoung2.jpg"
+    [[params.models.item.phone]]
+     title = "Trend LaFleur"
+     image = "models/samsung_galaxytrendlafleur.jpg"
+    [[params.models.item.phone]]
+     title = "Star 2"
+     image = "models/samsung_galaxystar2.jpg"
+    [[params.models.item.phone]]
+     title = "S5 mini"
+     image = "models/samsung_galaxys5mini.jpg"
+    [[params.models.item.phone]]
+     title = "S5 Duos"
+     image = "models/samsung_galaxys5duos.jpg"
+    [[params.models.item.phone]]
+     title = "S5 Active"
+     image = "models/samsung_galaxys5active.jpg"
+    [[params.models.item.phone]]
+     title = "S5"
+     image = "models/samsung_galaxys5.jpg"
+    [[params.models.item.phone]]
+     title = "Note Edge"
+     image = "models/samsung_galaxynoteedge.jpg"
+    [[params.models.item.phone]]
+     title = "Note 4"
+     image = "models/samsung_galaxynote4.jpg"
+    [[params.models.item.phone]]
+     title = "Note 3 Neo"
+     image = "models/samsung_galaxynote3neo.jpg"
+    [[params.models.item.phone]]
+     title = "Fame Lite LaFleur"
+     image = "models/samsung_galaxyfamelitelafleur.jpg"
+    [[params.models.item.phone]]
+     title = "Core Max"
+     image = "models/samsung_galaxycoremax.jpg"
+    [[params.models.item.phone]]
+     title = "Core LaFleur"
+     image = "models/samsung_galaxycorelafleur.jpg"
+    [[params.models.item.phone]]
+     title = "Core 2"
+     image = "models/samsung_galaxycore2.jpg"
+    [[params.models.item.phone]]
+     title = "Alpha"
+     image = "models/samsung_galaxyalpha.jpg"
+    [[params.models.item.phone]]
+     title = "Ace 4"
+     image = "models/samsung_galaxyace4.jpg"
+    [[params.models.item.phone]]
+     title = "A3"
+     image = "models/samsung_galaxya3.jpg"
+    [[params.models.item.phone]]
+     title = "A5"
+     image = "models/samsung_galaxya5.jpg"
+    [[params.models.item.phone]]
+     title = "K zoom"
+     image = "models/samsung_galaxykzoom.jpg"
+    [[params.models.item.phone]]
+     title = "Grand Neo"
+     image = "models/samsung_galaxygrandneo.jpg"
+    [[params.models.item.phone]]
+     title = "Mega 2"
+     image = "models/samsung_galaxymega2.jpg"
+
+  [[params.models.item]]
+    weight = 5
+    name = "2013"
+    title = "2013"
+    subtitle = ""
+    description = "Модели 2013 года"
+
+    [[params.models.item.phone]]
+     title = "i9500 S4"
+     image = "models/samsung_i9500galaxys4.jpg"
+    [[params.models.item.phone]]
+     title = "i9295 S4 Active"
+     image = "models/samsung_i9295galaxys4active.jpg"
+    [[params.models.item.phone]]
+     title = "i9195 S4 Mini"
+     image = "models/samsung_i9195galaxys4mini.jpg"
+    [[params.models.item.phone]]
+     title = "i9190 S4 Mini"
+     image = "models/samsung_i9190galaxys4mini.jpg"
+    [[params.models.item.phone]]
+     title = "Young Duos"
+     image = "models/samsung_galaxyyoungduos.jpg"
+    [[params.models.item.phone]]
+     title = "Young"
+     image = "models/samsung_galaxyyoung.jpg"
+    [[params.models.item.phone]]
+     title = "Xcover 2"
+     image = "models/samsung_galaxyxcover2.jpg"
+    [[params.models.item.phone]]
+     title = "Win"
+     image = "models/samsung_galaxywin.jpg"
+    [[params.models.item.phone]]
+     title = "S Duos 2"
+     image = "models/samsung_galaxysduos2.jpg"
+    [[params.models.item.phone]]
+     title = "S4 zoom"
+     image = "models/samsung_galaxys4zoom.jpg"
+    [[params.models.item.phone]]
+     title = "S2 Plus"
+     image = "models/samsung_galaxys2plus.jpg"
+    [[params.models.item.phone]]
+     title = "Round"
+     image = "models/samsung_galaxyround.jpg"
+    [[params.models.item.phone]]
+     title = "Pocket Neo"
+     image = "models/samsung_galaxypocketneo.jpg"
+    [[params.models.item.phone]]
+     title = "Note 3"
+     image = "models/samsung_galaxynote3.jpg"
+    [[params.models.item.phone]]
+     title = "Mega 6.3"
+     image = "models/samsung_galaxymega63.jpg"
+    [[params.models.item.phone]]
+     title = "Mega 5.8"
+     image = "models/samsung_galaxymega58.jpg"
+    [[params.models.item.phone]]
+     title = "Grand 2"
+     image = "models/samsung_galaxygrand2.jpg"
+    [[params.models.item.phone]]
+     title = "Fame"
+     image = "models/samsung_galaxyfame.jpg"
+    [[params.models.item.phone]]
+     title = "Express"
+     image = "models/samsung_galaxyexpress.jpg"
+    [[params.models.item.phone]]
+     title = "Core Advance"
+     image = "models/samsung_galaxycoreadvance.jpg"
+    [[params.models.item.phone]]
+     title = "Core"
+     image = "models/samsung_galaxycore.jpg"
+    [[params.models.item.phone]]
+     title = "Ace 3"
+     image = "models/samsung_galaxyace3.jpg"
+
+  [[params.models.item]]
+    weight = 6
+    name = "2012"
+    title = "2012"
+    subtitle = ""
+    description = "Модели 2012 года"
+
+    [[params.models.item.phone]]
+     title = "Star 3 Duos"
+     image = "models/samsung_star3duos.jpg"
+    [[params.models.item.phone]]
+     title = "Star 3"
+     image = "models/samsung_star3.jpg"
+    [[params.models.item.phone]]
+     title = "i9300 S3"
+     image = "models/samsung_i9300galaxys3.jpg"
+    [[params.models.item.phone]]
+     title = "i8350 Omnia M"
+     image = "models/samsung_i8350omniam.jpg"
+    [[params.models.item.phone]]
+     title = "S Duos"
+     image = "models/samsung_galaxysduos.jpg"
+    [[params.models.item.phone]]
+     title = "S Advance"
+     image = "models/samsung_galaxysadvance.jpg"
+    [[params.models.item.phone]]
+     title = "S3 mini"
+     image = "models/samsung_galaxys3mini.jpg"
+    [[params.models.item.phone]]
+     title = "Premier"
+     image = "models/samsung_galaxypremier.jpg"
+    [[params.models.item.phone]]
+     title = "Pocket Duos"
+     image = "models/samsung_galaxypocketduos.jpg"
+    [[params.models.item.phone]]
+     title = "Pocket"
+     image = "models/samsung_galaxypocket.jpg"
+    [[params.models.item.phone]]
+     title = "Note 2"
+     image = "models/samsung_galaxynote2.jpg"
+    [[params.models.item.phone]]
+     title = "Music"
+     image = "models/samsung_galaxymusic.jpg"
+    [[params.models.item.phone]]
+     title = "Mini 2"
+     image = "models/samsung_galaxymini2.jpg"
+    [[params.models.item.phone]]
+     title = "Grand Dual SIM"
+     image = "models/samsung_galaxygranddualsim.jpg"
+    [[params.models.item.phone]]
+     title = "Grand"
+     image = "models/samsung_galaxygrand.jpg"
+    [[params.models.item.phone]]
+     title = "Chat"
+     image = "models/samsung_galaxychat.jpg"
+    [[params.models.item.phone]]
+     title = "Beam"
+     image = "models/samsung_galaxybeam.jpg"
+    [[params.models.item.phone]]
+     title = "Ace Plus"
+     image = "models/samsung_galaxyaceplus.jpg"
+    [[params.models.item.phone]]
+     title = "Ace Duos"
+     image = "models/samsung_galaxyaceduos.jpg"
+    [[params.models.item.phone]]
+     title = "Ace 2"
+     image = "models/samsung_galaxyace2.jpg"
+    [[params.models.item.phone]]
+     title = "van"
+     image = "models/samsung_evan.jpg"
+    [[params.models.item.phone]]
+     title = "Ativ S"
+     image = "models/samsung_ativs.jpg"
+
+
+# Преимущества
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "6 причин выбрать нас"
+  description = ""
+
+  [[params.services.item]]
+    icon = "icon-paper"
+    title = "Гарантия до 365 дней"
+    description = "Мы даем гарантию до 365 дней и на наши услуги ремонта и на запчасти"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Защитная пленка в подарок"
+    description = "После ремонта, каждый новый клиент получает защитную плёнку"
+
+  [[params.services.item]]
+    icon = "icon-money"
+    title = "Накопительные скидки"
+    description = "Новым клиентам 10%, при последующих ремонтах скидки растут."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Срочный ремонт за 30 минут"
+    description = "Определим причины неисправности и быстро отремонтируем"
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Бесплатная диагностика "
+    description = "У Вас не будет повода остаться не довольными ремонтом"
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Работаем с 2008 года"
+    description = "9 лет работы и низкие цены при максимальной гарантии качества"
+
+
+
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Отзывы наших клиентов"
+  description = "Мы рады любым отзывам клиентов. Благодаря обратной связи, мы сможем стать лучше."
+
+  [[params.team.item]]
+    name = "Александр Чемакин"
+    position = "28.09.2017г."
+    description = "Красавцы. За 20-25 минут почистили аппарат от мусора (являюсь обладателем iPhone 5 – и очень люблю свой «кирпичик»). Зашел в кафешку рядом с сервисом, выпил кофе, вернулся – уже все готово. Вот это скорость. Телефон летает - просто огонь. Респект. Всем друзьям и знакомым обязательно буду рекомендовать сервис. Спасибо. Настоящие профи – приятно иметь с вами дело."
+    img = "images/chemakin.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "Даниил Хромов"
+    position = "06.05.2015г."
+    description = "На телефоне Lenovo VIBE Shot перестал ловить Wi-Fi, а мне всегда нужно быть на связи. Работа требует. Обратился в «Пилот Сервис» - оправдали и даже превзошли все ожидания. Цена смешная за такие услуги. По времени – всего полчаса. Еще и гарантию год предоставили. Не ожидал. Не думал, что в Петербурге еще остались такие сервисы, которые работают на клиента, а не для извлечения собственной прибыли. Спасибо, порадовали. Чуть что – я обязательно к вам."
+    img = "images/chromov.jpg"
+    #facebook = "#"
+    #witter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "Анна Малеева"
+    position = "11.09.2016г."
+    description = "Разбила экран на Samsung Galaxy S6. Очень расстроилась – телефон отличный и не хотела с ним расставаться, хотя муж предлагал купить новый. Посоветовала мне «Пилот Сервис» подруга. Сначала позвонила – сказали, что все можно исправить. Назвали приблизительную цену. Привезла смартфон. Пока ходила по магазинам, сообщили что всё готово. Вернулась в сервис – телефон, как новенький. Огромное спасибо вам, ребята."
+    img = "images/maleeva.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Оставьте отзыв"
+  message = ""
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2017 Пилот Сервис. Изготовление сайта <a href='http://contact-us.ru/' target='_blank'>Контактус</a></small></p>"
+  #github = "#"
+  #twitter = "#"
+  #facebook = "#"
+  vk = "http://vk.com/pilot_service"
+  #linkedin = "#"
+  #instagram = "#"
+  
